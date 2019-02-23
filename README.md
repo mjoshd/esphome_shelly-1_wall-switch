@@ -1,0 +1,1 @@
+# esphome_shelly_1_wall_switch
