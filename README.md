@@ -1,4 +1,4 @@
-# Shelly 1 with wall switch
+# Shelly 1 + wall switch
 
 Device links:
 
