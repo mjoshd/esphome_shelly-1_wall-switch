@@ -82,4 +82,3 @@ switch:
       - switch.toggle: relay
     turn_off_action:
       - switch.toggle: relay
-    # optimistic: true # change the toggle switch in HA to individual on/off buttons
