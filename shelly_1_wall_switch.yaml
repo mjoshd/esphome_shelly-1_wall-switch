@@ -34,7 +34,7 @@ logger:
 
 
 api:
-  # password: !secret esphome_api_password
+  password: !secret esphome_api_password
   # https://esphome.io/components/api
 
 
