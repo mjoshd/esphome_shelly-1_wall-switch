@@ -21,7 +21,6 @@ wifi:
     gateway: !secret wifi_gateway
     subnet: !secret wifi_subnet
     dns1: !secret wifi_dns1
-    dns2: !secret wifi_dns2
 
 
 # web_server:
@@ -46,7 +45,6 @@ ota:
 # https://esphome.io/devices/sonoff_basic.html
 # https://esphome.io/devices/sonoff.html#shelly-1
 
-
 binary_sensor:
   - platform: gpio
     # https://esphome.io/components/binary_sensor/gpio.html
@@ -55,30 +53,15 @@ binary_sensor:
     id: external_switch
     ## latching switch  e.g. light switch, Heltec/HTTM capacitive button
     on_press:
-      - switch.toggle: relay_template
+      - switch.toggle: relay
     on_release:
-      - switch.toggle: relay_template
+      - switch.toggle: relay
     internal: True
 
 switch:
   - platform: gpio
     # https://esphome.io/components/switch/gpio.html
     pin: GPIO4
+    name: ${friendly_name}
     id: relay
     icon: ${icon}
-
-  # tie the binary_sensor & switch together and report status based on the relay state
-  - platform: template
-    # https://esphome.io/components/switch/template.html
-    name: ${friendly_name}
-    id: relay_template
-    lambda: |-
-      if (id(relay).state) {
-        return true;
-      } else {
-        return false;
-      }
-    turn_on_action:
-      - switch.toggle: relay
-    turn_off_action:
-      - switch.toggle: relay
