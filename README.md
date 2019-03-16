@@ -2,9 +2,9 @@
 
 Device links:
 
-[Shelly 1 (Amazon)](https://www.amazon.com/gp/product/B07G33LNDY)
+[Shelly 1 (Amazon)](https://www.amazon.com/gp/product/B07G33LNDY/ref=as_li_tl?ie=UTF8&tag=mjoshd-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B07G33LNDY&linkId=da8a5a6017378382ee3f6f44039a9224)
 
-[Wall switch (Amazon)](https://www.amazon.com/gp/product/B00004YUNZ)
+[Wall switch (Amazon)](https://www.amazon.com/gp/product/B00004YUNZ/ref=as_li_tl?ie=UTF8&tag=mjoshd-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B00004YUNZ&linkId=fe44a5ffc595f4056143a3cbc9bbe9a7)
 
 <br>
 
